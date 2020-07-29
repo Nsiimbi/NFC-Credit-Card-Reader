@@ -4,13 +4,11 @@
 This library helps developer to read data from credit card: card number, expired date, card type.<br>
 <i>Works only with cards that has paypass or paywave technology!</i>
 
-1. [Demo](https://play.google.com/store/apps/details?id=com.pro100svitlo.nfccardread)
-2. [Screenshots](#screenshots)
-3. [Usage](#usage)
-4. [Callbacks](#callbacks)
-5. [Proguard](#proguard)
+1. [Screenshots](#screenshots)
+2. [Usage](#usage)
+3. [Callbacks](#callbacks)
+4. [Proguard](#proguard)
 5. [Updates](#updates)
-6. [License](#license)
 
 # Screenshots
 ![alt text](screenshots/Screenshot_20160428-122024.png "Start")
@@ -154,27 +152,3 @@ If you are using Proguard, please add this line to your proguard-rules.pro file
 * v.1.0.0
     1. Add Ingdirect Bank visa card (Australian Bank)
     2. Add default card type as <b>UNKNOWN</b>.
-
-
-### License
-The MIT License (MIT)
-
-Copyright (c) 2016 Credit Card NFC Reader
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
