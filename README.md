@@ -18,8 +18,17 @@ This library helps developer to read data from credit card: card number, expired
 # Usage
 ##### Add the dependencies to your gradle file:
 ```sh
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+	
+```sh
     dependencies {
-        compile 'com.github.pro100svitlo:creditCardNfcReader:1.0.3'
+        implementation 'com.github.Nsiimbi:NFC-Credit-Card-Reader:v0.0.1'
     }
 ```
 
